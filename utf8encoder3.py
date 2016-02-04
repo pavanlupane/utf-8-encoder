@@ -4,8 +4,8 @@ import os
 
 def main():
     byteBuffer = 2
-    path = os.path.expanduser(sys.argv[1])
-    fin = open(path,"rb")
+#     path = os.path.expanduser(sys.argv[1])
+    fin = open('gujarati_test_input.txt',"rb")
     fout = open("utf8encoder_out.txt",'w+b')
     Buffer = fin.read(byteBuffer) 
     
